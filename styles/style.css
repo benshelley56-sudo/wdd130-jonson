@@ -11,17 +11,14 @@ body {
     color: #333;
     background: #fff;
     line-height: 1.5;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: auto;
     padding: 20px;
 }
 .photo-about {
     height: 500px;
 }
-img {
-    max-width: 100%;
-    display: block;
-}
+
 
 /* ----------- NAVIGATION ----------- */
 
@@ -46,11 +43,23 @@ nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 /* ----------- PHOTO + ABOUT SECTION ----------- */
 
+#bigphoto {
+    height: 500px;
+}
+#imagegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 5em;
+}
+#smallphoto {
+    height: 300px;
+}
 #photo-about {
     margin-top: 50px;
     display: grid;
@@ -63,7 +72,6 @@ nav a {
     width: 100%;
     border: 2px solid #ccc;
     background: #eee;
-    height: 300px;
     object-fit: cover;
 }
 
@@ -71,5 +79,18 @@ nav a {
     font-size: 0.95rem;
     line-height: 1.6;
 }
+
+footer img {
+    height: 120px;
+}
+footer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-decoration: none;
+    color: #333;
+}
+
 
 /* ----------- S*

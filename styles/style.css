@@ -80,7 +80,7 @@ nav a {
     line-height: 1.6;
 }
 
-footer img {
+/* footer img {
     height: 120px;
 }
 footer {
@@ -90,7 +90,7 @@ footer {
     grid-template-rows: 1fr;
     text-decoration: none;
     color: #333;
-}
+} */
 
 * {
     margin: 0;
